@@ -1,0 +1,153 @@
+import React from "react";
+import './colstyle.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleUser} from '@fortawesome/free-solid-svg-icons';
+import './move.js';
+{/*Component */}
+function Col(){
+    {/* drag and drop events */}	
+    return(
+        <div>
+            <div className="conatiner">
+               <div className="row" style={{justifyContent:'space-evenly',marginTop:'20px'}}>
+               <div className="child" id="findlength">
+                    <h6>RECEIVED ORDERS (19)</h6>
+                   <div className="card" id="elementone1"  draggable="true">
+                       <div className="crad-body">
+                       <div className="card-text">
+                           <div id="storelength">#1</div>
+                           <div><span style={{border:'1px solid blue',backgroundColor:'skyblue',color:'darkblue',borderRadius:'3px'}}>Response Due</span></div>
+                       </div>
+                        <div style={{padding:'5px',marginTop:'-10px'}}>
+                           <span style={{fontWeight:'bold'}}>Order number #45</span>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                       <div className="footer">
+                          <div>   
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                          </div>
+                          <div>
+                              <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
+                          </div>
+                       </div>
+                        </div>
+                       </div>
+                   </div>
+                   <div className="card" id="elementone"  draggable="true">
+                       <div className="crad-body">
+                       <div className="card-text">
+                           <div>#2</div>
+                           <div><span style={{border:'1px solid blue',backgroundColor:'skyblue',color:'darkblue',borderRadius:'3px'}}>Response Due</span></div>
+                       </div>
+                        <div style={{padding:'5px',marginTop:'-10px'}}>
+                           <span style={{fontWeight:'bold'}}>Order number #7</span>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                       <div className="footer">
+                          <div>   
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                          </div>
+                          <div>
+                              <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
+                          </div>
+                       </div>
+                        </div>
+                       </div>
+                   </div>
+                   <div className="card" id="elementone"  draggable="true">
+                       <div className="crad-body">
+                       <div className="card-text">
+                           <div>#3</div>
+                           <div><span style={{border:'1px solid blue',backgroundColor:'skyblue',color:'darkblue',borderRadius:'3px'}}>Response Due</span></div>
+                       </div>
+                        <div style={{padding:'5px',marginTop:'-10px'}}>
+                           <span style={{fontWeight:'bold'}}>Order number #21</span>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                       <div className="footer">
+                          <div>   
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                          </div>
+                          <div>
+                              <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
+                          </div>
+                       </div>
+                        </div>
+                       </div>
+                   </div>
+                   <div className="card" id="elementone"  draggable="true">
+                       <div className="crad-body">
+                       <div className="card-text">
+                           <div>#4</div>
+                           <div><span style={{border:'1px solid blue',backgroundColor:'skyblue',color:'darkblue',borderRadius:'3px'}}>Response Due</span></div>
+                       </div>
+                        <div style={{padding:'5px',marginTop:'-10px'}}>
+                           <span style={{fontWeight:'bold'}}>Order number #69</span>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                       <div className="footer">
+                          <div>   
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                          </div>
+                          <div>
+                              <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
+                          </div>
+                       </div>
+                        </div>
+                       </div>
+                   </div>
+                   <div className="card" id="elementone"  draggable="true">
+                       <div className="crad-body">
+                       <div className="card-text">
+                           <div>#5</div>
+                           <div><span style={{border:'1px solid blue',backgroundColor:'skyblue',color:'darkblue',borderRadius:'3px'}}>Response Due</span></div>
+                       </div>
+                        <div style={{padding:'5px',marginTop:'-10px'}}>
+                           <span style={{fontWeight:'bold'}}>Order number #22</span>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                       <div className="footer">
+                          <div>   
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                          </div>
+                          <div>
+                              <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
+                          </div>
+                       </div>
+                        </div>
+                       </div>
+                   </div>
+               </div>
+               <div className="child">
+                  <div>
+                  <h6>ORDER IN PROGRESS (1)</h6>
+                  <div className="card" id="elementone"  draggable="true">
+                       <div className="crad-body">
+                       <div className="card-text">
+                           <div>#6</div>
+                           <div><span style={{border:'1px solid blue',backgroundColor:'skyblue',color:'darkblue',borderRadius:'3px'}}>Response Due</span></div>
+                       </div>
+                        <div style={{padding:'5px',marginTop:'-10px'}}>
+                           <span style={{fontWeight:'bold'}}>Order number #43</span>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                       <div className="footer">
+                          <div>   
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                          </div>
+                          <div>
+                              <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
+                          </div>
+                       </div>
+                        </div>
+                       </div>
+                   </div>
+                  </div>
+               </div>
+               <div className="child">
+               <h6>ORDER IS READY FOR DEVLIVERY (0)</h6>
+               </div>
+               <div className="child">
+               <h6>ORDER PICKED UP (0)</h6>
+               </div>
+               </div>
+            </div>
+        </div>
+    )
+}
+
+export default Col;

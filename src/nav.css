@@ -1,0 +1,9 @@
+.nav-container{
+    display: flex;
+}
+.nav-container1 > div{
+    padding-left: 3px;
+}
+.nav-container > div{
+    padding-left: 3px;
+}
