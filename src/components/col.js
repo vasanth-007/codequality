@@ -38,7 +38,7 @@ function Col(){
                        </div>
                         <div style={{padding:'5px',marginTop:'-10px'}}>
                            <span style={{fontWeight:'bold'}}>Order number #7</span>
-                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>3 Pulka, 2chicken Gravy, 2 Barrota</h6>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>3 Pulka, 2chicken Gravy, 2 Barrota,5 ice creams, Paratha Side Dish(2 Nos).Plain Dosa</h6>
                        <div className="footer">
                           <div>   
                            <span  style={{fontFamily:'Robota'}}>Due:</span>March 1, 2022 3:00 PM
@@ -58,10 +58,10 @@ function Col(){
                        </div>
                         <div style={{padding:'5px',marginTop:'-10px'}}>
                            <span style={{fontWeight:'bold'}}>Order number #21</span>
-                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>1 Dosa, 2 Set poori, 3 Phulka,1 White Egg, 3 Phulka,2 chicken Gravy, 2 Barrota</h6>
                        <div className="footer">
                           <div>   
-                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>july 20, 2022 7:14 AM
                           </div>
                           <div>
                               <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
