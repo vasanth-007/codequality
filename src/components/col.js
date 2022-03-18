@@ -78,10 +78,10 @@ function Col(){
                        </div>
                         <div style={{padding:'5px',marginTop:'-10px'}}>
                            <span style={{fontWeight:'bold'}}>Order number #69</span>
-                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Chicken Biryani, Nan rotti , Butter Masala, Side dish ,Vennila Cake</h6>
                        <div className="footer">
                           <div>   
-                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>May 3, 2022 11:00 AM
                           </div>
                           <div>
                               <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
@@ -98,10 +98,10 @@ function Col(){
                        </div>
                         <div style={{padding:'5px',marginTop:'-10px'}}>
                            <span style={{fontWeight:'bold'}}>Order number #22</span>
-                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Ghee Dosa , Poori 2 Set, Barrota, Mutton Gravy, Ice water ,White egg</h6>
                        <div className="footer">
                           <div>   
-                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>April 6, 2022 4:30 PM
                           </div>
                           <div>
                               <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
