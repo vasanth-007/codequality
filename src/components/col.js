@@ -3,9 +3,7 @@ import './colstyle.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleUser} from '@fortawesome/free-solid-svg-icons';
 import './move.js';
-{/*Component */}
-function Col(){
-    {/* drag and drop events */}	
+function Col(){	
     return(
         <div>
             <div className="conatiner">
@@ -40,10 +38,10 @@ function Col(){
                        </div>
                         <div style={{padding:'5px',marginTop:'-10px'}}>
                            <span style={{fontWeight:'bold'}}>Order number #7</span>
-                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>Paratha side dish,Butter masala,Podi Ghee dosa,Butter roti (6 Nos)</h6>
+                           <h6 style={{color:'rgba(0,0,0,0.6)',fontFamily:'Robota'}}>3 Pulka, 2chicken Gravy, 2 Barrota</h6>
                        <div className="footer">
                           <div>   
-                           <span  style={{fontFamily:'Robota'}}>Due:</span>May31, 2022 3:30 PM
+                           <span  style={{fontFamily:'Robota'}}>Due:</span>March 1, 2022 3:00 PM
                           </div>
                           <div>
                               <span style={{fontFamily:'Robota'}}>ASSIGNED TO <FontAwesomeIcon icon={faCircleUser}/></span>
