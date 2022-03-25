@@ -3,6 +3,7 @@ import './colstyle.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleUser} from '@fortawesome/free-solid-svg-icons';
 import './move.js';
+imort './Navbarhandler.js;
 function Col(){	
     return(
         <div>
